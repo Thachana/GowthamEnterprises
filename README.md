@@ -1,8 +1,16 @@
-# Gowtham Enterprises — Static Website
+# GOWTHAM ENTERPRISES — Static Website
 
 **PLC, HMI, SCADA & NI LabVIEW Solutions**
 
-A simple, professional, modern static website for Gowtham Enterprises, built with plain HTML, CSS and vanilla JavaScript. No frameworks, no backend, no dependencies.
+A professional, modern static website for GOWTHAM ENTERPRISES, built with plain HTML, CSS and vanilla JavaScript. No frameworks, no backend, no dependencies.
+
+---
+
+## Live Website
+
+**Live URL:** https://thachana.github.io/GowthamEnterprises/
+
+**GitHub Repository:** https://github.com/Thachana/GowthamEnterprises
 
 ---
 
@@ -11,7 +19,7 @@ A simple, professional, modern static website for Gowtham Enterprises, built wit
 ```
 GowthamEnterprises/
 ├── index.html        # Main page — all sections
-├── style.css         # Complete design system
+├── style.css         # Complete design system (light theme)
 ├── script.js         # Mobile menu, active nav, scroll reveal
 ├── README.md         # This file
 └── assets/
@@ -29,9 +37,21 @@ GowthamEnterprises/
 | Hero | Heading, subtitle, description, two CTA buttons, SVG illustration |
 | Services | Two service cards — PLC/HMI/SCADA and NI LabVIEW |
 | About | Company overview with SCADA panel illustration |
-| Why Choose Us | Five feature cards |
-| Contact | Placeholder — ready for contact details |
+| Why Choose Us | Five feature cards including Pan-India Online Support |
+| Contact | Phone, email, registered address and work locations |
 | Footer | Brand, navigation links, copyright |
+
+---
+
+## Contact Information
+
+| Type | Detail |
+|---|---|
+| Phone | +91-9843812448 |
+| Email | ge.automations@gmail.com |
+| Registered Office | 1/207/A, Thathanoor Pudur (Vill), Kurubarahalli (Po), Dharmapuri – 635302 |
+| Work Locations | Chennai, Hosur, Bangalore |
+| Online Support | All over India |
 
 ---
 
@@ -48,6 +68,16 @@ GowthamEnterprises/
 - **CSS3** — custom properties, CSS Grid, Flexbox, responsive breakpoints, smooth transitions
 - **Vanilla JavaScript** — no libraries, no frameworks
 - **Inline SVG** — all icons and illustrations are inline SVGs (no external image files)
+
+---
+
+## Design
+
+- **Theme:** Light, clean professional look — white and light blue tones
+- **Accent colour:** Sky blue (`#0ea5e9`)
+- **Typography:** System font stack — no external font downloads
+- **Shadows:** Subtle card shadows for depth
+- **Animations:** Gentle float on hero illustration, scroll-reveal on cards
 
 ---
 
@@ -90,75 +120,94 @@ Install the **Live Server** extension in VS Code, right-click `index.html` → *
 - Semantic HTML5 elements (`<header>`, `<main>`, `<section>`, `<article>`, `<footer>`, `<nav>`, `<address>`)
 - Single `<h1>` on page, proper `H1 → H2 → H3` hierarchy
 - `aria-label`, `aria-labelledby`, `aria-hidden`, `role` attributes throughout
-- All SVG decorative elements marked `aria-hidden="true"`
 
 ---
 
-## Customisation Guide
+## Hosting Details
 
-### 1. Add contact details
-In `index.html`, find the `<!-- TO CUSTOMISE LATER -->` comment inside the Contact section. Replace the placeholder paragraph with:
+| Item | Detail |
+|---|---|
+| Platform | GitHub Pages |
+| Cost | Free (lifetime) |
+| HTTPS | Yes — automatic via GitHub |
+| CDN | Yes — GitHub's global CDN |
+| Branch deployed | `main` |
+| Source folder | `/` (root) |
+| Deploy trigger | Any push to `main` branch |
 
-```html
-<address class="contact__details">
-  <p><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
-  <p><strong>Phone:</strong> <a href="tel:+910000000000">+91 00000 00000</a></p>
-  <p><strong>Address:</strong> Your Address, City, State, Country</p>
-</address>
+---
+
+## How to Update the Live Site
+
+Any push to the `main` branch automatically triggers a redeploy. GitHub Pages rebuilds and goes live within **1–2 minutes**.
+
+### Step-by-step
+
+**1. Make your changes**
+Edit `index.html`, `style.css`, or `script.js` in your local folder at:
+```
+/mnt/d/GowthamEnterprises/
 ```
 
-### 2. Change the colour scheme
-All colours are CSS custom properties at the top of `style.css`:
-
-```css
-:root {
-  --clr-primary:   #0ea5e9;   /* Main accent — change this one to retheme the whole site */
-  --clr-accent:    #22c55e;   /* Green highlights */
-  --clr-bg:        #020c1b;   /* Page background */
-}
+**2. Open a terminal and navigate to the project**
+```bash
+cd /mnt/d/GowthamEnterprises
 ```
 
-### 3. Update company description
-Edit the text inside the `<div class="about__text">` block in `index.html`.
-
-### 4. Add a logo image
-Replace the inline SVG gear icon in the header with:
-
-```html
-<img src="assets/images/logo.png" alt="Gowtham Enterprises" width="140" height="40" />
+**3. Stage your changes**
+```bash
+git add .
+```
+Or stage a specific file only:
+```bash
+git add index.html
 ```
 
-Place your logo file in `assets/images/`.
-
-### 5. Update SEO meta tags
-At the top of `index.html`, update:
-
-```html
-<title>Your Page Title</title>
-<meta name="description" content="Your description here." />
-<meta property="og:title" content="Your OG Title" />
-<meta property="og:description" content="Your OG description." />
+**4. Commit with a descriptive message**
+```bash
+git commit -m "Update contact details"
 ```
 
-### 6. Add more service cards
-Copy an existing `.service-card` `<article>` block in `index.html` and update the title, description, tags and SVG icon.
-
-### 7. Update the copyright year
-In the footer of `index.html`:
-
-```html
-<p class="footer__copy">&copy; 2026 Gowtham Enterprises. All rights reserved.</p>
+**5. Push to GitHub**
+```bash
+git push
 ```
+
+**6. Wait 1–2 minutes, then check the live site**
+```
+https://thachana.github.io/GowthamEnterprises/
+```
+
+### Monitor the deployment
+
+To watch the build progress:
+👉 https://github.com/Thachana/GowthamEnterprises/actions
+
+A green tick means the site is updated and live.
+A red cross means something went wrong — check the logs there.
+
+### Common update examples
+
+| What you want to change | File to edit |
+|---|---|
+| Phone / Email | `index.html` — find `contact-card` blocks in Contact section |
+| Office address | `index.html` — find `contact-card__address` in Contact section |
+| Work locations | `index.html` — find `contact-card__value` in the locations card |
+| Colours / theme | `style.css` — change values in `:root { }` at the top |
+| Company description | `index.html` — find `about__text` section |
+| Page title / SEO | `index.html` — update `<title>` and `<meta>` tags at the top |
+| Add a logo image | Replace SVG gear icon in header with `<img>`, place file in `assets/images/` |
+| Copyright year | `index.html` — find `footer__copy` in the footer |
 
 ---
 
 ## Notes
 
-- No copyrighted images used. All visuals are inline SVG drawn from scratch.
-- No fake company information (no invented employees, clients, certifications, years of experience, or locations).
-- Contact section intentionally left as a placeholder until real details are available.
-- The `assets/images/` and `assets/icons/` folders are empty and reserved for future use.
+- No copyrighted images used. All visuals are inline SVG.
+- Company name displayed as **GOWTHAM ENTERPRISES** (all caps) throughout.
+- Copyright year: **2024**.
+- Contact section contains real contact details.
 
 ---
 
-*Built: September 2026*
+*Built: September 2026 — Deployed: September 2026*
