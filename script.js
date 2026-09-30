@@ -84,7 +84,7 @@
   });
 
   /* ---------- 3. Active nav link on scroll (Intersection Observer) ---------- */
-  var sectionIds = ['home', 'services', 'about', 'why', 'contact'];
+  var sectionIds = ['home', 'services', 'about', 'why', 'projects', 'contact'];
   var sections   = sectionIds.map(function (id) {
     return document.getElementById(id);
   }).filter(Boolean);
@@ -147,7 +147,7 @@
   /* ---------- 4. Smooth reveal animation for sections ---------- */
   if ('IntersectionObserver' in window) {
     var revealElements = document.querySelectorAll(
-      '.service-card, .why-card, .about__visual, .about__text'
+      '.service-card, .why-card, .about__visual, .about__text, .project-card'
     );
 
     // Set initial hidden state

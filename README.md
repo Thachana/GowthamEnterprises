@@ -38,6 +38,7 @@ GowthamEnterprises/
 | Services | Two service cards — PLC/HMI/SCADA and NI LabVIEW |
 | About | Company overview with SCADA panel illustration |
 | Why Choose Us | Five feature cards including Pan-India Online Support |
+| Our Projects | Three client project cards — Renault Nissan, Ashok Leyland, SAME DEUTZ-FAHR |
 | Contact | Phone, email, registered address and work locations |
 | Footer | Brand, navigation links, copyright |
 
