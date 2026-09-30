@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gowtham Enterprises provides industrial automation programming and software development services focused on PLC, HMI, SCADA and NI LabVIEW technologies." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Gowtham Enterprises – PLC, HMI, SCADA & NI LabVIEW Solutions" />
+  <meta property="og:description" content="Industrial automation programming and software development solutions for reliable and efficient industrial systems." />
+  <meta property="og:type" content="website" />
+
+  <title>Gowtham Enterprises – PLC, HMI, SCADA & NI LabVIEW Solutions</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="header__logo" aria-label="Gowtham Enterprises Home">
+        <span class="logo-icon" aria-hidden="true">
+          <!-- Inline SVG gear/cog logo mark -->
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="16" cy="16" r="5" stroke="#0ea5e9" stroke-width="2.5"/>
+            <path d="M16 2v4M16 26v4M2 16h4M26 16h4M6.34 6.34l2.83 2.83M22.83 22.83l2.83 2.83M6.34 25.66l2.83-2.83M22.83 9.17l2.83-2.83" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo-text">Gowtham<span class="logo-text--accent"> Enterprises</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <ul class="nav__list" role="list">
+          <li><a href="#home"     class="nav__link" data-section="home">Home</a></li>
+          <li><a href="#services" class="nav__link" data-section="services">Services</a></li>
+          <li><a href="#about"    class="nav__link" data-section="about">About</a></li>
+          <li><a href="#contact"  class="nav__link" data-section="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav">
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+        <span class="hamburger__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero__bg" aria-hidden="true">
+        <!-- Grid pattern rendered via CSS -->
+        <div class="hero__circuit"></div>
+      </div>
+      <div class="container hero__content">
+        <p class="hero__eyebrow">Industrial Automation &amp; Software</p>
+        <h1 class="hero__heading" id="hero-heading">Gowtham Enterprises</h1>
+        <p class="hero__subtitle">PLC, HMI, SCADA &amp; NI LabVIEW Solutions</p>
+        <p class="hero__desc">
+          Industrial automation programming and software development solutions
+          for reliable and efficient industrial systems.
+        </p>
+        <div class="hero__actions">
+          <a href="#services" class="btn btn--primary">Our Services</a>
+          <a href="#contact"  class="btn btn--outline">Contact Us</a>
+        </div>
+      </div>
+
+      <!-- Decorative SVG illustration -->
+      <div class="hero__illustration" aria-hidden="true">
+        <svg viewBox="0 0 420 340" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
+          <!-- HMI Screen -->
+          <rect x="40" y="60" width="180" height="120" rx="8" fill="#0f172a" stroke="#0ea5e9" stroke-width="2"/>
+          <rect x="52" y="72" width="156" height="90" rx="4" fill="#0c2340"/>
+          <!-- Screen content lines -->
+          <line x1="60" y1="88" x2="196" y2="88" stroke="#0ea5e9" stroke-width="1" opacity="0.5"/>
+          <rect x="60" y="96" width="80" height="6" rx="2" fill="#0ea5e9" opacity="0.7"/>
+          <rect x="60" y="108" width="50" height="6" rx="2" fill="#38bdf8" opacity="0.5"/>
+          <rect x="60" y="120" width="100" height="6" rx="2" fill="#38bdf8" opacity="0.4"/>
+          <!-- Gauge circle -->
+          <circle cx="168" cy="118" r="22" fill="none" stroke="#334155" stroke-width="3"/>
+          <path d="M146 118 A22 22 0 0 1 187 107" stroke="#0ea5e9" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <circle cx="168" cy="118" r="4" fill="#0ea5e9"/>
+          <!-- HMI stand -->
+          <rect x="118" y="180" width="24" height="14" rx="2" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+          <rect x="100" y="192" width="60" height="8" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+
+          <!-- PLC Box -->
+          <rect x="250" y="80" width="120" height="80" rx="6" fill="#0f172a" stroke="#0ea5e9" stroke-width="2"/>
+          <rect x="262" y="92" width="28" height="14" rx="3" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+          <rect x="298" y="92" width="28" height="14" rx="3" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+          <rect x="334" y="92" width="24" height="14" rx="3" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+          <!-- PLC status LEDs -->
+          <circle cx="270" cy="118" r="5" fill="#22c55e"/>
+          <circle cx="285" cy="118" r="5" fill="#22c55e"/>
+          <circle cx="300" cy="118" r="5" fill="#f59e0b"/>
+          <circle cx="315" cy="118" r="5" fill="#334155"/>
+          <circle cx="330" cy="118" r="5" fill="#334155"/>
+          <!-- PLC terminal strip -->
+          <rect x="262" y="130" width="96" height="16" rx="2" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+          <line x1="276" y1="130" x2="276" y2="146" stroke="#475569" stroke-width="1"/>
+          <line x1="290" y1="130" x2="290" y2="146" stroke="#475569" stroke-width="1"/>
+          <line x1="304" y1="130" x2="304" y2="146" stroke="#475569" stroke-width="1"/>
+          <line x1="318" y1="130" x2="318" y2="146" stroke="#475569" stroke-width="1"/>
+          <line x1="332" y1="130" x2="332" y2="146" stroke="#475569" stroke-width="1"/>
+          <line x1="346" y1="130" x2="346" y2="146" stroke="#475569" stroke-width="1"/>
+
+          <!-- Connecting wires -->
+          <path d="M220 120 Q238 120 250 120" stroke="#0ea5e9" stroke-width="2" fill="none" stroke-dasharray="4 3" opacity="0.7"/>
+
+          <!-- SCADA trend chart area -->
+          <rect x="40" y="220" width="330" height="90" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+          <text x="52" y="240" font-size="10" fill="#94a3b8" font-family="monospace">SCADA — Live Trend</text>
+          <!-- Chart lines -->
+          <polyline points="52,280 80,265 108,272 136,255 164,268 192,250 220,262 248,245 276,258 304,242 332,255 358,248" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linejoin="round"/>
+          <polyline points="52,290 80,285 108,288 136,280 164,287 192,275 220,282 248,270 276,278 304,265 332,272 358,268" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linejoin="round" opacity="0.6"/>
+          <!-- Chart grid -->
+          <line x1="52" y1="295" x2="368" y2="295" stroke="#1e293b" stroke-width="1"/>
+          <line x1="52" y1="270" x2="368" y2="270" stroke="#1e293b" stroke-width="1"/>
+          <line x1="52" y1="250" x2="368" y2="250" stroke="#1e293b" stroke-width="1"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">What We Do</p>
+          <h2 class="section-title" id="services-heading">Our Services</h2>
+          <p class="section-desc">Focused expertise in industrial automation programming and specialised software development.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <!-- Service Card 1 -->
+          <article class="service-card" aria-labelledby="service1-title">
+            <div class="service-card__icon-wrap" aria-hidden="true">
+              <!-- PLC/SCADA/HMI combined SVG icon -->
+              <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="service-icon" aria-hidden="true">
+                <!-- PLC chassis -->
+                <rect x="4" y="18" width="56" height="30" rx="4" fill="#0f172a" stroke="#0ea5e9" stroke-width="2"/>
+                <!-- Module slots -->
+                <rect x="10" y="24" width="10" height="18" rx="2" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+                <rect x="24" y="24" width="10" height="18" rx="2" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+                <rect x="38" y="24" width="10" height="18" rx="2" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+                <!-- Status LEDs -->
+                <circle cx="15" cy="28" r="2" fill="#22c55e"/>
+                <circle cx="29" cy="28" r="2" fill="#22c55e"/>
+                <circle cx="43" cy="28" r="2" fill="#f59e0b"/>
+                <!-- DIN rail top -->
+                <rect x="4" y="14" width="56" height="5" rx="2" fill="#334155"/>
+                <!-- DIN rail bottom -->
+                <rect x="4" y="48" width="56" height="5" rx="2" fill="#334155"/>
+                <!-- Label -->
+                <rect x="10" y="34" width="10" height="5" rx="1" fill="#0ea5e9" opacity="0.3"/>
+                <rect x="24" y="34" width="10" height="5" rx="1" fill="#0ea5e9" opacity="0.3"/>
+                <rect x="38" y="34" width="10" height="5" rx="1" fill="#0ea5e9" opacity="0.3"/>
+              </svg>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title" id="service1-title">PLC, HMI &amp; SCADA Programming</h3>
+              <p class="service-card__desc">
+                Programming, configuration and integration of PLC, HMI and SCADA systems
+                for industrial automation applications.
+              </p>
+              <ul class="service-card__tags" aria-label="Technologies">
+                <li class="tag">PLC</li>
+                <li class="tag">HMI</li>
+                <li class="tag">SCADA</li>
+                <li class="tag">Industrial Automation</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Service Card 2 -->
+          <article class="service-card" aria-labelledby="service2-title">
+            <div class="service-card__icon-wrap" aria-hidden="true">
+              <!-- LabVIEW/DAQ SVG icon -->
+              <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" class="service-icon" aria-hidden="true">
+                <!-- Monitor -->
+                <rect x="8" y="10" width="48" height="34" rx="4" fill="#0f172a" stroke="#0ea5e9" stroke-width="2"/>
+                <rect x="14" y="16" width="36" height="22" rx="2" fill="#0c2340"/>
+                <!-- Block diagram lines (LabVIEW-style) -->
+                <line x1="20" y1="24" x2="32" y2="24" stroke="#f59e0b" stroke-width="1.5"/>
+                <rect x="32" y="20" width="8" height="8" rx="1" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5"/>
+                <line x1="40" y1="24" x2="44" y2="24" stroke="#f59e0b" stroke-width="1.5"/>
+                <line x1="20" y1="32" x2="32" y2="32" stroke="#38bdf8" stroke-width="1.5"/>
+                <rect x="32" y="28" width="8" height="8" rx="1" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+                <line x1="40" y1="32" x2="44" y2="32" stroke="#38bdf8" stroke-width="1.5"/>
+                <!-- Waveform indicator -->
+                <polyline points="14,35 18,35 20,30 22,38 24,30 26,38 28,34 30,34" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linejoin="round"/>
+                <!-- Monitor stand -->
+                <rect x="28" y="44" width="8" height="6" rx="1" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+                <rect x="22" y="50" width="20" height="4" rx="2" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+                <!-- DAQ device -->
+                <rect x="10" y="56" width="44" height="6" rx="3" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+                <circle cx="18" cy="59" r="1.5" fill="#0ea5e9"/>
+                <circle cx="24" cy="59" r="1.5" fill="#0ea5e9"/>
+                <circle cx="30" cy="59" r="1.5" fill="#0ea5e9"/>
+              </svg>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title" id="service2-title">NI LabVIEW Software Development</h3>
+              <p class="service-card__desc">
+                Custom software development using NI LabVIEW for automation, measurement,
+                monitoring, testing and data acquisition applications.
+              </p>
+              <ul class="service-card__tags" aria-label="Technologies">
+                <li class="tag">NI LabVIEW</li>
+                <li class="tag">DAQ</li>
+                <li class="tag">Measurement</li>
+                <li class="tag">Test &amp; Automation</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="container about__inner">
+        <div class="about__visual" aria-hidden="true">
+          <svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg" class="about-svg">
+            <!-- Background panel -->
+            <rect x="20" y="20" width="280" height="240" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+            <!-- Top bar -->
+            <rect x="20" y="20" width="280" height="36" rx="12" fill="#0ea5e9" opacity="0.12"/>
+            <circle cx="44" cy="38" r="6" fill="#ef4444" opacity="0.8"/>
+            <circle cx="62" cy="38" r="6" fill="#f59e0b" opacity="0.8"/>
+            <circle cx="80" cy="38" r="6" fill="#22c55e" opacity="0.8"/>
+            <text x="108" y="43" font-size="11" fill="#94a3b8" font-family="monospace">SCADA Control Panel</text>
+
+            <!-- Status widgets row -->
+            <rect x="36" y="72" width="72" height="48" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+            <text x="48" y="90" font-size="9" fill="#64748b" font-family="monospace">PUMP-01</text>
+            <circle cx="72" cy="106" r="10" fill="none" stroke="#334155" stroke-width="3"/>
+            <path d="M62 106 A10 10 0 0 1 80 99" stroke="#22c55e" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <text x="66" y="110" font-size="8" fill="#22c55e" font-family="monospace">ON</text>
+
+            <rect x="120" y="72" width="72" height="48" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+            <text x="130" y="90" font-size="9" fill="#64748b" font-family="monospace">MOTOR-02</text>
+            <rect x="130" y="96" width="52" height="12" rx="3" fill="#0c2340" stroke="#334155" stroke-width="1"/>
+            <rect x="132" y="98" width="34" height="8" rx="2" fill="#0ea5e9" opacity="0.8"/>
+            <text x="136" y="106" font-size="7" fill="#fff" font-family="monospace">65%</text>
+
+            <rect x="204" y="72" width="80" height="48" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+            <text x="212" y="90" font-size="9" fill="#64748b" font-family="monospace">TEMP-03</text>
+            <text x="218" y="110" font-size="18" fill="#f59e0b" font-family="monospace">72°C</text>
+
+            <!-- Trend graph -->
+            <rect x="36" y="134" width="248" height="72" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+            <text x="48" y="150" font-size="9" fill="#64748b" font-family="monospace">Process Trend</text>
+            <line x1="44" y1="196" x2="276" y2="196" stroke="#334155" stroke-width="1"/>
+            <line x1="44" y1="182" x2="276" y2="182" stroke="#334155" stroke-width="1"/>
+            <line x1="44" y1="168" x2="276" y2="168" stroke="#334155" stroke-width="1"/>
+            <polyline points="44,190 68,178 92,184 116,170 140,176 164,162 188,170 212,158 236,164 260,155 276,160" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linejoin="round"/>
+            <polyline points="44,194 68,190 92,192 116,186 140,191 164,182 188,186 212,178 236,182 260,174 276,177" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-linejoin="round" opacity="0.5"/>
+
+            <!-- Alarm row -->
+            <rect x="36" y="218" width="248" height="26" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+            <circle cx="52" cy="231" r="4" fill="#22c55e"/>
+            <text x="62" y="235" font-size="9" fill="#94a3b8" font-family="monospace">System Normal — All values within range</text>
+          </svg>
+        </div>
+
+        <div class="about__text">
+          <p class="section-eyebrow">About Us</p>
+          <h2 class="section-title" id="about-heading">Who We Are</h2>
+          <p class="about__para">
+            Gowtham Enterprises provides industrial automation programming and software
+            development services focused on PLC, HMI, SCADA and NI LabVIEW technologies.
+          </p>
+          <p class="about__para">
+            Our work centres on delivering practical, reliable solutions that meet the
+            specific requirements of each industrial application — from system programming
+            and configuration to custom software development for measurement, monitoring
+            and data acquisition.
+          </p>
+          <a href="#contact" class="btn btn--primary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why" id="why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Our Strengths</p>
+          <h2 class="section-title" id="why-heading">Why Choose Us</h2>
+        </div>
+        <div class="why__grid">
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="20" cy="20" r="18" fill="#0ea5e9" opacity="0.1" stroke="#0ea5e9" stroke-width="1.5"/>
+                <path d="M12 20a8 8 0 1 1 16 0 8 8 0 0 1-16 0z" fill="none" stroke="#0ea5e9" stroke-width="2"/>
+                <circle cx="20" cy="20" r="3" fill="#0ea5e9"/>
+                <line x1="20" y1="8" x2="20" y2="12" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/>
+                <line x1="20" y1="28" x2="20" y2="32" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/>
+                <line x1="8" y1="20" x2="12" y2="20" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/>
+                <line x1="28" y1="20" x2="32" y2="20" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="why-card__title">Industrial Automation Focus</h3>
+            <p class="why-card__desc">Dedicated expertise in industrial automation programming and system integration.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="20" cy="20" r="18" fill="#0ea5e9" opacity="0.1" stroke="#0ea5e9" stroke-width="1.5"/>
+                <rect x="10" y="14" width="20" height="13" rx="2" fill="none" stroke="#0ea5e9" stroke-width="2"/>
+                <rect x="14" y="18" width="4" height="5" rx="1" fill="#0ea5e9" opacity="0.6"/>
+                <rect x="21" y="18" width="4" height="5" rx="1" fill="#0ea5e9" opacity="0.6"/>
+                <circle cx="15" cy="16" r="1.5" fill="#22c55e"/>
+                <circle cx="22" cy="16" r="1.5" fill="#22c55e"/>
+              </svg>
+            </div>
+            <h3 class="why-card__title">PLC / HMI / SCADA Programming</h3>
+            <p class="why-card__desc">Specialised in programming and configuring PLC, HMI and SCADA systems.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="20" cy="20" r="18" fill="#0ea5e9" opacity="0.1" stroke="#0ea5e9" stroke-width="1.5"/>
+                <rect x="11" y="12" width="18" height="13" rx="2" fill="none" stroke="#0ea5e9" stroke-width="2"/>
+                <line x1="14" y1="18" x2="22" y2="18" stroke="#f59e0b" stroke-width="1.5"/>
+                <rect x="22" y="16" width="4" height="4" rx="1" fill="none" stroke="#f59e0b" stroke-width="1.5"/>
+                <line x1="14" y1="22" x2="22" y2="22" stroke="#38bdf8" stroke-width="1.5"/>
+                <rect x="22" y="20" width="4" height="4" rx="1" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+                <rect x="13" y="25" width="14" height="5" rx="2" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+              </svg>
+            </div>
+            <h3 class="why-card__title">NI LabVIEW Development</h3>
+            <p class="why-card__desc">Custom LabVIEW software for measurement, testing, monitoring and data acquisition.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="20" cy="20" r="18" fill="#0ea5e9" opacity="0.1" stroke="#0ea5e9" stroke-width="1.5"/>
+                <path d="M13 20 L17 24 L27 14" stroke="#22c55e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              </svg>
+            </div>
+            <h3 class="why-card__title">Customised Software Solutions</h3>
+            <p class="why-card__desc">Software built to your specific application requirements, not generic off-the-shelf products.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="20" cy="20" r="18" fill="#0ea5e9" opacity="0.1" stroke="#0ea5e9" stroke-width="1.5"/>
+                <rect x="12" y="18" width="16" height="10" rx="2" fill="none" stroke="#0ea5e9" stroke-width="2"/>
+                <path d="M15 18 V15 a5 5 0 0 1 10 0 V18" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="20" cy="23" r="2" fill="#0ea5e9"/>
+              </svg>
+            </div>
+            <h3 class="why-card__title">Reliable &amp; Practical Solutions</h3>
+            <p class="why-card__desc">Focused on delivering dependable, maintainable solutions for industrial environments.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact__inner">
+        <div class="section-header">
+          <p class="section-eyebrow">Get In Touch</p>
+          <h2 class="section-title" id="contact-heading">Contact Us</h2>
+          <p class="section-desc">Interested in our services? Reach out to discuss your automation and software requirements.</p>
+        </div>
+
+        <div class="contact__placeholder">
+          <div class="contact__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="6" y="10" width="36" height="28" rx="4" fill="none" stroke="#0ea5e9" stroke-width="2"/>
+              <path d="M6 14 L24 26 L42 14" fill="none" stroke="#0ea5e9" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <p class="contact__notice">Contact details will be added soon.</p>
+          <!-- 
+            TO CUSTOMISE LATER:
+            Replace the paragraph above with:
+            <address class="contact__details">
+              <p><strong>Email:</strong> <a href="mailto:info@example.com">info@example.com</a></p>
+              <p><strong>Phone:</strong> <a href="tel:+910000000000">+91 00000 00000</a></p>
+              <p><strong>Address:</strong> Your Address, City, State, Country</p>
+            </address>
+          -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="logo-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="16" cy="16" r="5" stroke="#0ea5e9" stroke-width="2.5"/>
+            <path d="M16 2v4M16 26v4M2 16h4M26 16h4M6.34 6.34l2.83 2.83M22.83 22.83l2.83 2.83M6.34 25.66l2.83-2.83M22.83 9.17l2.83-2.83" stroke="#0ea5e9" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <div>
+          <p class="footer__name">Gowtham Enterprises</p>
+          <p class="footer__tagline">PLC, HMI, SCADA &amp; NI LabVIEW Solutions</p>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <p class="footer__copy">&copy; 2026 Gowtham Enterprises. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
