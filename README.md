@@ -8,7 +8,7 @@ A professional, modern static website for GOWTHAM ENTERPRISES, built with plain 
 
 ## Live Website
 
-**Live URL:** https://thachana.github.io/GowthamEnterprises/
+**Live URL:** https://gowthamenterprises.pages.dev/
 
 **GitHub Repository:** https://github.com/Thachana/GowthamEnterprises
 
@@ -128,12 +128,11 @@ Install the **Live Server** extension in VS Code, right-click `index.html` → *
 
 | Item | Detail |
 |---|---|
-| Platform | GitHub Pages |
+| Platform | Cloudflare Pages |
 | Cost | Free (lifetime) |
-| HTTPS | Yes — automatic via GitHub |
-| CDN | Yes — GitHub's global CDN |
+| HTTPS | Yes — automatic via Cloudflare |
+| CDN | Yes — Cloudflare's global CDN |
 | Branch deployed | `main` |
-| Source folder | `/` (root) |
 | Deploy trigger | Any push to `main` branch |
 
 ---
@@ -176,13 +175,13 @@ git push
 
 **6. Wait 1–2 minutes, then check the live site**
 ```
-https://thachana.github.io/GowthamEnterprises/
+https://gowthamenterprises.pages.dev/
 ```
 
 ### Monitor the deployment
 
 To watch the build progress:
-👉 https://github.com/Thachana/GowthamEnterprises/actions
+👉 https://dash.cloudflare.com/ → Pages → GowthamEnterprises → Deployments
 
 A green tick means the site is updated and live.
 A red cross means something went wrong — check the logs there.
